@@ -1,0 +1,145 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 2%; }
+
+@media (min-width: 768px) {
+  ul {
+    margin: 0 auto; }
+
+  li {
+    background: none;
+    display: inline-block; }
+
+  #about {
+    width: 100%;
+    margin: 4%; }
+
+  #about p {
+    width: 50%;
+    text-align: left;
+    float: left;
+    font-size: 1.5em;
+    font-weight: lighter; }
+
+  .profile-img {
+    display: inline;
+    width: 40%;
+    margin: 0; }
+
+  .item {
+    background: white;
+    width: 45%;
+    padding: 2.5%;
+    float: left; }
+
+  #contact {
+    clear: both;
+    width: 100%;
+    padding: 2%; }
+
+  #contact h2 {
+    padding-top: 5%; }
+
+  #contact p {
+    font-size: 0.9em;
+    margin: 5%; }
+
+  #back {
+    display: none; }
+
+  #bottom-nav {
+    float: right;
+    display: inline; } }
+@media (min-width: 1024px) {
+  header {
+    padding: 5%; }
+
+  .name {
+    display: inline;
+    width: 50%;
+    float: left;
+    text-align: left;
+    -webkit-margin-before: 0; }
+
+  nav ul {
+    float: right;
+    display: inline;
+    width: 40%;
+    padding-right: 0;
+    text-align: right; }
+
+  #about {
+    clear: both; }
+
+  .item {
+    background: white;
+    width: 28%;
+    float: left;
+    font-size: 1.5em; }
+
+  #contact {
+    display: block;
+    text-align: center; }
+
+  #contact h2 {
+    text-align: center; }
+
+  #contact p {
+    margin-left: 25%;
+    width: 50%; } }
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+article {
+  padding-bottom: 30px; }
+
+.profile-img {
+  display: block;
+  margin: 40px auto 10px;
+  width: 75%; }
+
+#portfolio {
+  background: white;
+  padding: 10px; }
+
+#portfolio h2 {
+  padding-bottom: 30px; }
+
+#portfolio img {
+  max-width: 100%; }
+
+#name {
+  float: left; }
+
+#back {
+  float: right; }
+
+#bottom-nav {
+  display: none; }
+
+ul {
+  list-style: none;
+  width: 100%;
+  padding-left: 0; }
+
+li {
+  background: white;
+  font-size: 1.2em;
+  margin: 5px 0;
+  padding: 5px;
+  font-weight: 600; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+/*# sourceMappingURL=application.css.map */
