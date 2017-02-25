@@ -1,6 +1,6 @@
 ul {
   list-style: none;
-  width: 100%;
+  @extend %full-width;
   padding-left: 0;
 }
 

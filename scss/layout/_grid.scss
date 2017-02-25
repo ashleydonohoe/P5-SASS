@@ -1,5 +1,5 @@
 .wrapper {
-  width: 100%;
+  @extend %full-width;
   display: flex;
   flex-wrap: wrap;
 }
@@ -25,5 +25,5 @@ article {
 }
 
 #portfolio img {
-  max-width: 100%;
+  @extend %full-width;
 }
