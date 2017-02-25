@@ -15,15 +15,16 @@ article {
   width: 75%;
 }
 
+// Nested selector
 #portfolio {
   background: white;
   padding: 10px;
-}
 
-#portfolio h2 {
-  padding-bottom: 30px;
-}
+  h2 {
+    padding-bottom: 30px;
+  }
 
-#portfolio img {
-  @extend %full-width;
+  img {
+    @extend %full-width;
+  }
 }

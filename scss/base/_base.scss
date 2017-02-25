@@ -25,14 +25,14 @@ body {
   #about {
     width: 100%;
     margin: 4%;
-  }
 
-  #about p {
-    width: 50%;
-    text-align: left;
-    float: left;
-    font-size: 1.5em;
-    font-weight: lighter;
+    p {
+      width: 50%;
+      text-align: left;
+      float: left;
+      font-size: 1.5em;
+      font-weight: lighter;
+    }
   }
 
   .profile-img {
@@ -52,15 +52,15 @@ body {
     clear: both;
     width: 100%;
     padding: 2%;
-  }
 
-  #contact h2 {
-    padding-top: 5%;
-  }
+    h2 {
+      padding-top: 5%;
+    }
 
-  #contact p {
-    font-size: 0.9em;
-    margin: 5%;
+    p {
+      font-size: 0.9em;
+      margin: 5%;
+    }
   }
 
   #back {
@@ -109,14 +109,14 @@ body {
   #contact {
     display: block;
     text-align: center;
-  }
 
-  #contact h2 {
-    text-align: center;
-  }
+    h2 {
+      text-align: center;
+    }
 
-  #contact p {
-    margin-left: 25%;
-    width: 50%;
+    p {
+      margin-left: 25%;
+      width: 50%;
+    }
   }
 }
