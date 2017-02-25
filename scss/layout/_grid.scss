@@ -13,6 +13,30 @@ article {
   display: block;
   margin: 40px auto 10px;
   width: 75%;
+
+  @media #{$brk-narrow} {
+    display: inline;
+    width: 40%;
+    margin: 0;
+  }
+}
+
+#about {
+  @media #{$brk-narrow} {
+    width: 100%;
+    margin: 4%;
+
+    p {
+      @include text(1.5em, lighter);
+      width: 50%;
+      text-align: left;
+      float: left;
+    }
+  }
+
+  @media #{$brk-wide} {
+    clear: both;
+  }
 }
 
 // Nested selector
@@ -28,3 +52,51 @@ article {
     @extend %full-width;
   }
 }
+
+.item {
+  @media #{$brk-narrow} {
+    background: $white;
+    width: 45%;
+    padding: 2.5%;
+    float: left;
+  }
+
+  @media #{$brk-wide} {
+    background: white;
+    width: 28%;
+    float: left;
+    @include text(1.5em);
+  }
+}
+
+#contact {
+  @media #{$brk-narrow} {
+    clear: both;
+    width: 100%;
+    padding: 2%;
+
+    h2 {
+      padding-top: 5%;
+    }
+
+    p {
+      @include text(0.9em);
+      margin: 5%;
+    }
+  }
+
+  @media #{$brk-wide} {
+    display: block;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      margin-left: 25%;
+      width: 50%;
+    }
+  }
+}
+

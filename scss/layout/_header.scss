@@ -2,6 +2,10 @@ ul {
   list-style: none;
   @extend %full-width;
   padding-left: 0;
+
+  @media #{$brk-narrow} {
+    margin: 0 auto;
+  }
 }
 
 li {
@@ -9,9 +13,40 @@ li {
   background: $white;
   margin: 5px 0;
   padding: 5px;
+
+  @media #{$brk-narrow} {
+    background: none;
+    display: inline-block;
+  }
 }
 
 a {
   text-decoration: none;
   @include text($color: $black);
+}
+
+header {
+  @media #{$brk-wide} {
+      padding: 5%;
+  }
+}
+
+.name {
+  @media #{$brk-wide} {
+    display: inline;
+    width: 50%;
+    float: left;
+    text-align: left;
+    -webkit-margin-before: 0;
+  }
+}
+
+nav ul {
+  @media #{$brk-wide} {
+    float: right;
+    display: inline;
+    width: 40%;
+    padding-right: 0;
+    text-align: right;
+  }
 }

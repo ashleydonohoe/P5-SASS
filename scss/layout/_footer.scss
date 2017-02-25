@@ -4,8 +4,17 @@
 
 #back {
   float: right;
+
+  @media #{$brk-narrow} {
+    display: none;
+  }
 }
 
 #bottom-nav {
   display: none;
+
+  @media #{$brk-narrow} {
+    float: right;
+    display: inline;
+  }
 }
