@@ -27,11 +27,10 @@ body {
     margin: 4%;
 
     p {
+      @include text(1.5em, lighter);
       width: 50%;
       text-align: left;
       float: left;
-      font-size: 1.5em;
-      font-weight: lighter;
     }
   }
 
@@ -58,7 +57,7 @@ body {
     }
 
     p {
-      font-size: 0.9em;
+      @include text(0.9em);
       margin: 5%;
     }
   }
@@ -103,7 +102,7 @@ body {
     background: white;
     width: 28%;
     float: left;
-    font-size: 1.5em;
+    @include text(1.5em);
   }
 
   #contact {
