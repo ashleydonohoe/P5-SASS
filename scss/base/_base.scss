@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: whitesmoke;
+  background-color: $body-color;
   text-align: center;
   padding: 2%;
 }
@@ -42,7 +42,7 @@ body {
   }
 
   .item {
-    background: white;
+    background: $white;
     width: 45%;
     padding: 2.5%;
     float: left;
